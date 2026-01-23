@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 h1{
+    font-family: 'Roboto+Condensed:ital';
     text-align: left;
     font-weight: lighter;
     text-transform: uppercase;
@@ -12,5 +15,5 @@ h2{
 header p{
     text-align: center;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 24px;
 }
