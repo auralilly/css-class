@@ -5,7 +5,7 @@ h1{
     text-align: left;
     font-weight: lighter;
     text-transform: uppercase;
-    border: thin black 4px;
+    border: 4px thin black ;
 }
 h2{
      font-family: 'Roboto Condensed', sans-serif;
