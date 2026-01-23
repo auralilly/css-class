@@ -2,11 +2,13 @@
 
 h1{
    
-    text-align: left 14px;
+    text-align: left;
     font-weight: lighter;
     text-transform: uppercase;
     border: 1px solid black ;
     display: inline-block;
+    padding: 0.3em 0.6em;
+    margin: 0 0 0.1rem 0;
 }
 h2{
      font-family: 'Roboto Condensed', sans-serif;
