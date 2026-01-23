@@ -23,3 +23,9 @@ h4{
     font-size: 16px;
     
 }
+
+main{
+    font-size: 2.5rem;
+    margin: 0 auto;
+    max-width: 750px;
+}
