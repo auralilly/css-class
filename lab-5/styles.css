@@ -46,3 +46,12 @@ h1 {
     cursor: pointer;
     transition: all 0.3s ease;
 }
+.tab:hover {
+    color: #fff;
+}
+
+.tab.active {
+    background-color: #ffffff;
+    color: #000;
+    font-weight: bold;
+}
