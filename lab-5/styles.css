@@ -28,3 +28,21 @@ h1 {
     font-weight: 700;
     letter-spacing: 2px;
 }
+.tabs {
+    display: flex;
+    justify-content: center;
+    background-color: #1a1a1a;
+    border-bottom: 2px solid #333;
+    flex-wrap: wrap;
+}
+
+.tab {
+    padding: 16px 32px;
+    background: none;
+    border: none;
+    color: #aaaaaa;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
