@@ -1,7 +1,9 @@
 span {
   background-color: rgb(10, 73, 73);
+  color: yellow
 }
 
 div > span {
   background-color: rgb(46, 2, 2);
+  color: orange
 }
