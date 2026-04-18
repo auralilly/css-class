@@ -5,7 +5,7 @@ body{
 
 .Home{
     column-count: 3;
-    column-width: 45px;
+    column-width: 100px;
     column-rule-style: dashed;
     column-rule-color: blueviolet;
 }
