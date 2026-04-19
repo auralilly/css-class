@@ -18,3 +18,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* Header - Big, bold, cartoonish */
+header {
+  background: linear-gradient(135deg, #ff6b6b, #feca57);
+  padding: 2rem 1rem;
+  text-align: center;
+  border-bottom: 8px solid #2c3e50;
+  box-shadow: 0 10px 0 #2c3e50;
+}
