@@ -76,3 +76,10 @@ nav a {
   box-shadow: 4px 4px 0 #2c3e50;
   transition: all 0.2s;
 }
+
+nav a:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 7px 7px 0 #2c3e50;
+  background: var(--accent);
+  color: white;
+}
