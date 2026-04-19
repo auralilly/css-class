@@ -30,7 +30,7 @@ header {
 
 header h1 {
   font-size: 4.5rem;
-  color: white;
+  color: rgba(239, 36, 36, 0.805);
   text-shadow: 
     4px 4px 0 #2c3e50,
     -2px -2px 0 #2c3e50;
