@@ -49,6 +49,9 @@ header p {
   font-size: 1.3rem;
   margin: 1rem 0;
 }
+svg{
+  width: 1em;
+}
 
 /* Navigation - Bubbly buttons */
 nav ul {
