@@ -121,3 +121,28 @@ blockquote::before {
   background: var(--bubble);
   padding: 0 10px;
 }
+#about ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+/* Style each list item as a colored flexbox card */
+#about ul li {
+  flex: 1 1 260px;           /* Makes each item a flexible box */
+  padding: 1.25rem 1.5rem;
+  border-radius: 16px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
