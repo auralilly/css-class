@@ -238,3 +238,9 @@ aside.profile {
   overflow: hidden;
 }
 
+@keyframes animeGlow {
+  0%   { border-image-source: linear-gradient(45deg, #00ffff, #ff00aa); }
+  50%  { border-image-source: linear-gradient(45deg, #ff00aa, #00ffcc); }
+  100% { border-image-source: linear-gradient(45deg, #00ffcc, #00ffff); }
+}
+
