@@ -101,3 +101,23 @@ main {
   margin-bottom: 2rem;
   box-shadow: 8px 8px 0 #2c3e50;
 }
+
+* Blockquote - Speech bubble style */
+blockquote {
+  background: var(--bubble);
+  border: 5px solid #2c3e50;
+  border-radius: 25px;
+  padding: 1.5rem 2rem;
+  position: relative;
+  margin: 2rem 0;
+}
+
+blockquote::before {
+  content: "💬";
+  font-size: 3rem;
+  position: absolute;
+  top: -25px;
+  left: 30px;
+  background: var(--bubble);
+  padding: 0 10px;
+}
