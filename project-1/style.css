@@ -102,7 +102,7 @@ main {
   box-shadow: 8px 8px 0 #2c3e50;
 }
 
-* Blockquote - Speech bubble style */
+* Blockquote style */
 blockquote {
   background: var(--bubble);
   border: 5px solid #2c3e50;
