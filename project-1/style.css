@@ -170,3 +170,59 @@ blockquote::before {
 #about ul li:nth-child(15) { background-color: #48dbfb; }   
 #about ul li:nth-child(16) { background-color: #ff9ff3; }   
 #about ul li:nth-child(17) { background-color: #54a0ff; }   
+
+#files {
+  background: linear-gradient(135deg, #ff6b6b, #feca57);
+  border: 8px solid #2c3e50;
+  border-radius: 30px;
+  padding: 2.5rem 1.5rem;
+  box-shadow: 0 15px 0 #2c3e50;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#files h3 {
+  font-size: 2.8rem;
+  color: #2c3e50;
+  text-shadow: 4px 4px 0 #fff;
+  margin-bottom: 1rem;
+  transform: rotate(-3deg);
+}
+
+#files p {
+  font-size: 1.35rem;
+  color: #2c3e50;
+  font-weight: bold;
+  margin: 1.5rem 0;
+}
+
+#files a {
+  display: inline-block;
+  background: white;
+  color: #ff4d94;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 15px 30px;
+  margin: 12px;
+  border: 6px solid #2c3e50;
+  border-radius: 50px;
+  box-shadow: 6px 6px 0 #2c3e50;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#files a:hover {
+  transform: translate(-5px, -5px) rotate(3deg);
+  box-shadow: 10px 10px 0 #2c3e50;
+  background: #4ecdc4;
+  color: white;
+}
+
+/* Extra wacky touch */
+#files::before {
+  content: "🎨 💥 ✨";
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
